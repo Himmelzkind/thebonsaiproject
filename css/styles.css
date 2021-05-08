@@ -1,12 +1,12 @@
 :root {
-  --header-color: rgb(27, 27, 27);
+  --primary-color: rgb(27, 27, 27);
   --default-font-family: Didot, Perpetua, "Calibri Light";
   --text-uppercase: text-transform: uppercase;
 }
 
 body {
   font-family: var(--default-font-family);
-  color: var(--header-color);
+  color: var(--primary-color);
 }
 
 h1 {
@@ -32,21 +32,20 @@ p {
 }
 
 .btn-primary {
-  background-color: white;
+  background-color: var(--primary-color);
   border-radius: 6px;
-  border-color: var(--header-color);
-  color: var(--header-color);
+  border-color: var(--primary-color);
+  color: white;
   font-size: 18px;
   line-height: 26px;
   padding: 15px 30px;
 }
 
 .secondary-link {
-  background-color: white;
-  border: 1px solid var(--header-color);
+  background-color:var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 6px;
-  border-color: var(--header-color);
-  color: var(--header-color);
+  color: white;
   font-size: 18px;
   line-height: 26px;
   padding: 15px 30px; 
@@ -61,4 +60,14 @@ background-color: grey;
 
 .subheading, .textaboutme {
     text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: rgba(38, 104, 38, 0.774);
+    border-color: rgba(38, 104, 38, 0.774);
+}
+
+.secondary-link:hover {
+    background-color: white;
+    color: var(--primary-color);
 }
