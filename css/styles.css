@@ -18,12 +18,19 @@ h2 {
 }
 
 img {
-    max-width: 300px;
+    max-width: 400px;
+    padding: 40px;
 }
 
 p {
   font-size: 20px;
 }
+
+
+.coloredRow {
+    background-color: rgb(221, 218, 216);
+}
+
 .mainproject {
   background-color: grey;
   text-align: center;
@@ -61,6 +68,8 @@ background-color: grey;
 
 .subheading, .textaboutme {
     text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .project-description {
@@ -75,4 +84,13 @@ background-color: grey;
 .secondary-link:hover {
     background-color: white;
     color: var(--primary-color);
+}
+
+@media (max-width: 414px) {
+    h1 {
+       font-size: 60px;
+    }
+    h2 { 
+        font-size: 30px;
+    }
 }
