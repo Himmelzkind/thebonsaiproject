@@ -13,7 +13,21 @@ i {
 }
 
 .footer-styling {
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   padding-left: 40px;
+}
+
+.f-heading {
+  font-size: 26px;
+  font-weight: 700;
+}
+.white {
+  color: white;
+}
+
+a.white:hover {
+  font-weight: 800;
+  color: black;
+  transition: 0.2s ease-in;
 }
